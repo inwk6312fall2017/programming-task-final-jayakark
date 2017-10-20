@@ -1,8 +1,9 @@
+import re
 op1=open("Book1.txt","r")
 book1=op1.read()
-a=[]
+
 longest1=0
-for i in book1.split('.'):
+for i in book1.split("."):
     b=i.split()
     for re in range(len(b)):
      if len(b[re]) > longest1:
@@ -24,7 +25,7 @@ print("Longest word from book2 is :  ",longest_word2)
 
 op3=open("Book3.txt","r")
 book3=op3.read()
-A=[]
+
 longest3=0
 for i in book3.split('.'):
     b=i.split()
