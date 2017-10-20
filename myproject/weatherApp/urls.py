@@ -1,4 +1,4 @@
 from django.conf.urls import url
-from .views import HomeView
-urlpatterns = [url(r'^$',HomeView.as_view(),name='home'),]
+from .views import homeview
+urlpatterns = [url(r'^$',homeview.as_view(),name='home'),]
 
